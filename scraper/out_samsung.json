@@ -1,0 +1,1142 @@
+{
+  "store": {
+    "name": "Samsung",
+    "url": "https://www.amazon.com/stores/Samsung/page/F50AFABA-4CDE-4A95-84D0-CA4C61819FEB",
+    "externalId": "F50AFABA-4CDE-4A95-84D0-CA4C61819FEB",
+    "countryCode": "US"
+  },
+  "products": [
+    {
+      "id": null,
+      "platform": "amazon",
+      "countryCode": "US",
+      "externalId": "B0G4SX79VJ",
+      "url": "https://www.amazon.com/dp/B0G4SX79VJ",
+      "title": "Samsung Galaxy S26 Ultra, Unlocked Android Smartphone, 256GB, Cobalt Violet",
+      "referenceImages": [
+        {
+          "url": "https://m.media-amazon.com/images/I/61tDVgCf07L._AC_SL1500_.jpg",
+          "type": "main"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61mxl7oh5BL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61nlAsBRMxL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/71nxnGuqfPL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61NbZmO0VSL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61GkBBcPTML._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61WKuUjTW4L._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/714bjxptn6L._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/71mkyKFc8DL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/71Hne-x+kdL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/515Mm2G9J8L._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61vjRLJO1GL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/618F1CD-gbL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/51bp8y5AwfL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61XD4SlSt+L._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/512391BLQUL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61pYc2tne0L._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61q1dJxGowL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61zgBcimo8L._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61IeedoWLwL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61KemCIdsLL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/617PdXdCkXL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/51KrY7cBGnL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61+Y5d0LdCL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/6192kDZfS8L._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61PnYmF7ZtL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/51GQvTEtiXL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61UnzIc+97L._AC_SL1500_.jpg",
+          "type": "gallery"
+        }
+      ],
+      "rating": {
+        "value": "4.6",
+        "scale": "5",
+        "count": 2257
+      },
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S26 Ultra",
+      "attributes": {
+        "Brand": "Samsung",
+        "Operating System": "Android 16, One UI 8.5",
+        "Memory Storage Capacity": "256 GB",
+        "Resolution": "QHD+",
+        "Refresh Rate": "120",
+        "Model Name": "Samsung Galaxy S26 Ultra",
+        "Wireless Carrier": "Unlocked for All Carriers",
+        "Cellular Technology": "5G",
+        "RAM Memory Installed": "12 GB",
+        "Color": "Cobalt Violet",
+        "SIM Card Slot Count": "Single SIM",
+        "Connector Type": "USB Type C",
+        "Form Factor": "Bar",
+        "Biometric Security Feature": "Fingerprint Recognition",
+        "Human-Interface Input": "Buttons, Microphone, Touchscreen with Stylus Support",
+        "Sim Card Size": "Nano",
+        "Water Resistance Level": "Water Resistant",
+        "Headphones Jack": "USB-C",
+        "Compatible Devices": "Android, NFC, Samsung, Universal Bluetooth, Wifi",
+        "Additional Features": "Always On Display, Built-In GPS, Fast Charging Support, Reverse Wireless Charging, Wireless Charging",
+        "Front Photo Sensor Resolution": "12 \tmp",
+        "Rear Facing Camera Photo Sensor Resolution": "10.0, 12.0, 200.0, 50.0 \tmp",
+        "Camera Description": "Front, Rear",
+        "Number of Rear Facing Cameras": "4",
+        "Number of Front Cameras": "1",
+        "Battery Capacity": "5000 milliamp_hours",
+        "Battery Power": "5000 milliamp_hours",
+        "Video Capture Resolution": "4k, 8k",
+        "Frame Rate": "60 fps",
+        "Screen Size": "6.9 inches",
+        "Display Type": "AMOLED",
+        "Wireless Provider": "Unlocked for All Carriers",
+        "Connectivity Technology": "5G, Bluetooth, NFC, USB, Wi-Fi",
+        "Wireless Network Technology": "CDMA, GSM, LTE",
+        "Model Year": "2026",
+        "Built-In Media": "Galaxy S26 Ultra, Quick Start Guide, SIM Tray Ejector, Stylus, USB Cable",
+        "Warranty Description": "1 Year Manufacturer",
+        "Manufacturer": "Samsung",
+        "Specific Uses For Product": "Creative content generation, Nighttime use, Professional or power user scenarios",
+        "UPC": "198957240027",
+        "Unit Count": "1 Count",
+        "ASIN": "B0G4SX79VJ",
+        "Item Weight": "7.52 ounces",
+        "Item Dimensions": "6.44 x 3.07 x 0.31 inches",
+        "GPS Geotagging Functionality": "True",
+        "Supported Satellite Navigation System": "GPS"
+      },
+      "store": {
+        "externalId": "F50AFABA-4CDE-4A95-84D0-CA4C61819FEB",
+        "name": "Samsung",
+        "url": "https://www.amazon.com/stores/Samsung/page/F50AFABA-4CDE-4A95-84D0-CA4C61819FEB"
+      },
+      "variants": [
+        {
+          "externalId": "B0H7STX68V",
+          "name": "Blueberry / 128GB / Galaxy S26FE",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0H7T29QDR",
+          "name": "Pistachio / 128GB / Galaxy S26FE",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0GH3B3PFH",
+          "name": "White / 512GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0H7SPJHDH",
+          "name": "Blueberry / 256GB / Galaxy S26FE",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SWZP8B",
+          "name": "Sky Blue / 256GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SXD3TJ",
+          "name": "Cobalt Violet / 256GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0H7SYL97P",
+          "name": "Graphite / 256GB / Galaxy S26FE",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SYJK4G",
+          "name": "White / 256GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0GH33YP71",
+          "name": "Black / 512GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SVFSNP",
+          "name": "Sky Blue / 512GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SYZVKC",
+          "name": "White / 256GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SW96R4",
+          "name": "Black / 256GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SW3XXP",
+          "name": "Black / 512GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SWQC2Q",
+          "name": "Black / 256GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0H7SLXZPB",
+          "name": "Graphite / 128GB / Galaxy S26FE",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SZ6SJY",
+          "name": "White / 512GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SYWBQP",
+          "name": "White / 512GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0GH3474YH",
+          "name": "Sky Blue / 512GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SX6C1G",
+          "name": "Sky Blue / 256GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SSKLJM",
+          "name": "Black / 512GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SWDNBB",
+          "name": "Cobalt Violet / 512GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SWN34T",
+          "name": "Cobalt Violet / 512GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SX9GDX",
+          "name": "White / 256GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SVV79P",
+          "name": "Sky Blue / 512GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0GH33V5NM",
+          "name": "Cobalt Violet / 512GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0H7SRQVFH",
+          "name": "Pistachio / 256GB / Galaxy S26FE",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SX79VJ",
+          "name": "Cobalt Violet / 256GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": {
+            "amount": "1142.46",
+            "currency": "USD"
+          }
+        },
+        {
+          "externalId": "B0G4SVXVSP",
+          "name": "Cobalt Violet / 256GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SWDH8P",
+          "name": "Black / 256GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SYN2QC",
+          "name": "Sky Blue / 256GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        }
+      ],
+      "sourcePublishedAt": null,
+      "collectedAt": "2026-10-29T02:52:33Z",
+      "raw": {
+        "byline": "Visit the Samsung Store",
+        "priceText": "$1,142.46",
+        "discoveredVia": "input"
+      }
+    },
+    {
+      "id": null,
+      "platform": "amazon",
+      "countryCode": "US",
+      "externalId": "B0G4SW3XXP",
+      "url": "https://www.amazon.com/dp/B0G4SW3XXP",
+      "title": "Samsung Galaxy S26 Ultra, Unlocked Android Smartphone, 512GB, Black",
+      "referenceImages": [
+        {
+          "url": "https://m.media-amazon.com/images/I/61UnzIc+97L._AC_SL1500_.jpg",
+          "type": "main"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61LvCoSu9xL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61nlAsBRMxL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/71nxnGuqfPL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61NbZmO0VSL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61GkBBcPTML._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61WKuUjTW4L._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/714bjxptn6L._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/71mkyKFc8DL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/717hai4hj0L._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/516Tmpk3E0L._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61vjRLJO1GL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/618F1CD-gbL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/51bp8y5AwfL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61XD4SlSt+L._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/512391BLQUL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61pYc2tne0L._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61q1dJxGowL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61zgBcimo8L._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61IeedoWLwL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61KemCIdsLL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61tDVgCf07L._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/617PdXdCkXL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/51KrY7cBGnL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61+Y5d0LdCL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/6192kDZfS8L._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61PnYmF7ZtL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/51GQvTEtiXL._AC_SL1500_.jpg",
+          "type": "gallery"
+        }
+      ],
+      "rating": {
+        "value": "4.6",
+        "scale": "5",
+        "count": 2257
+      },
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S26 Ultra",
+      "attributes": {
+        "Brand": "Samsung",
+        "Operating System": "Android 16, One UI 8.5",
+        "Memory Storage Capacity": "512 GB",
+        "Resolution": "QHD+",
+        "Refresh Rate": "120",
+        "Model Name": "Samsung Galaxy S26 Ultra",
+        "Wireless Carrier": "Unlocked for All Carriers",
+        "Cellular Technology": "5G",
+        "RAM Memory Installed": "12 GB",
+        "Color": "Black",
+        "SIM Card Slot Count": "Single SIM",
+        "Connector Type": "USB Type C",
+        "Form Factor": "Bar",
+        "Biometric Security Feature": "Fingerprint Recognition",
+        "Human-Interface Input": "Buttons, Microphone, Touchscreen with Stylus Support",
+        "Sim Card Size": "Nano",
+        "Water Resistance Level": "Water Resistant",
+        "Headphones Jack": "USB-C",
+        "Compatible Devices": "Android, NFC, Samsung, Universal Bluetooth, Wifi",
+        "Additional Features": "Always On Display, Built-In GPS, Fast Charging Support, Reverse Wireless Charging, Wireless Charging",
+        "Flash Memory Supported Size Maximum": "512 GB",
+        "Front Photo Sensor Resolution": "12 \tmp",
+        "Rear Facing Camera Photo Sensor Resolution": "10.0, 12.0, 200.0, 50.0 \tmp",
+        "Camera Description": "Front, Rear",
+        "Number of Rear Facing Cameras": "4",
+        "Number of Front Cameras": "1",
+        "Battery Capacity": "5000 milliamp_hours",
+        "Battery Power": "5000 milliamp_hours",
+        "Video Capture Resolution": "4k, 8k",
+        "Frame Rate": "60 fps",
+        "Screen Size": "6.9 inches",
+        "Display Type": "AMOLED",
+        "Wireless Provider": "Unlocked for All Carriers",
+        "Connectivity Technology": "5G, Bluetooth, NFC, USB, Wi-Fi",
+        "Wireless Network Technology": "CDMA, GSM, LTE",
+        "Model Year": "2026",
+        "Built-In Media": "Galaxy S26 Ultra, Quick Start Guide, SIM Tray Ejector, Stylus, USB Cable",
+        "Warranty Description": "1 Year Manufacturer",
+        "Manufacturer": "Samsung",
+        "UPC": "198957240140",
+        "Unit Count": "1 Count",
+        "ASIN": "B0G4SW3XXP",
+        "Item Weight": "7.52 ounces",
+        "Item Dimensions": "6.44 x 3.07 x 0.31 inches",
+        "GPS Geotagging Functionality": "True",
+        "Supported Satellite Navigation System": "GPS"
+      },
+      "store": {
+        "externalId": "F50AFABA-4CDE-4A95-84D0-CA4C61819FEB",
+        "name": "Samsung",
+        "url": "https://www.amazon.com/stores/Samsung/page/F50AFABA-4CDE-4A95-84D0-CA4C61819FEB"
+      },
+      "variants": [
+        {
+          "externalId": "B0H7STX68V",
+          "name": "Blueberry / 128GB / Galaxy S26FE",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0H7T29QDR",
+          "name": "Pistachio / 128GB / Galaxy S26FE",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0GH3B3PFH",
+          "name": "White / 512GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0H7SPJHDH",
+          "name": "Blueberry / 256GB / Galaxy S26FE",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SWZP8B",
+          "name": "Sky Blue / 256GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SXD3TJ",
+          "name": "Cobalt Violet / 256GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0H7SYL97P",
+          "name": "Graphite / 256GB / Galaxy S26FE",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SYJK4G",
+          "name": "White / 256GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0GH33YP71",
+          "name": "Black / 512GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SVFSNP",
+          "name": "Sky Blue / 512GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SYZVKC",
+          "name": "White / 256GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SW3XXP",
+          "name": "Black / 512GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": {
+            "amount": "1349.99",
+            "currency": "USD"
+          }
+        },
+        {
+          "externalId": "B0G4SW96R4",
+          "name": "Black / 256GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SWQC2Q",
+          "name": "Black / 256GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0H7SLXZPB",
+          "name": "Graphite / 128GB / Galaxy S26FE",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SZ6SJY",
+          "name": "White / 512GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SYWBQP",
+          "name": "White / 512GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0GH3474YH",
+          "name": "Sky Blue / 512GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SX6C1G",
+          "name": "Sky Blue / 256GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SSKLJM",
+          "name": "Black / 512GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SWDNBB",
+          "name": "Cobalt Violet / 512GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SWN34T",
+          "name": "Cobalt Violet / 512GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SX9GDX",
+          "name": "White / 256GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SVV79P",
+          "name": "Sky Blue / 512GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0GH33V5NM",
+          "name": "Cobalt Violet / 512GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0H7SRQVFH",
+          "name": "Pistachio / 256GB / Galaxy S26FE",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SX79VJ",
+          "name": "Cobalt Violet / 256GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SVXVSP",
+          "name": "Cobalt Violet / 256GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SWDH8P",
+          "name": "Black / 256GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SYN2QC",
+          "name": "Sky Blue / 256GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        }
+      ],
+      "sourcePublishedAt": null,
+      "collectedAt": "2026-10-29T02:52:37Z",
+      "raw": {
+        "byline": "Visit the Samsung Store",
+        "priceText": "$1,349.99",
+        "discoveredVia": "brand_search"
+      }
+    },
+    {
+      "id": null,
+      "platform": "amazon",
+      "countryCode": "US",
+      "externalId": "B0G4SWDH8P",
+      "url": "https://www.amazon.com/dp/B0G4SWDH8P",
+      "title": "Samsung Galaxy S26 Ultra, Unlocked Android Smartphone, 256GB, Black",
+      "referenceImages": [
+        {
+          "url": "https://m.media-amazon.com/images/I/61PnYmF7ZtL._AC_SL1500_.jpg",
+          "type": "main"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61qWHnDjNLL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61l-2XMBqmL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/71TjEWx3UML._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61E+cjWMnhL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61j5jlMlTUL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61KP3toh-0L._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/71wPk2RBGKL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/71+x7Qdj+JL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/516Tmpk3E0L._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/71Hne-x+kdL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61vjRLJO1GL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/618F1CD-gbL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/51bp8y5AwfL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61XD4SlSt+L._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/512391BLQUL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61pYc2tne0L._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61q1dJxGowL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61zgBcimo8L._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61IeedoWLwL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61KemCIdsLL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61tDVgCf07L._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/617PdXdCkXL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/51KrY7cBGnL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61+Y5d0LdCL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/6192kDZfS8L._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/51GQvTEtiXL._AC_SL1500_.jpg",
+          "type": "gallery"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/61UnzIc+97L._AC_SL1500_.jpg",
+          "type": "gallery"
+        }
+      ],
+      "rating": {
+        "value": "4.6",
+        "scale": "5",
+        "count": 2257
+      },
+      "brand": "Samsung",
+      "model": "Samsung Galaxy S26 Ultra",
+      "attributes": {
+        "Brand": "Samsung",
+        "Operating System": "Android 16, One UI 8.5",
+        "Memory Storage Capacity": "256 GB",
+        "Resolution": "QHD+",
+        "Refresh Rate": "120",
+        "Model Name": "Samsung Galaxy S26 Ultra",
+        "Wireless Carrier": "Unlocked for All Carriers",
+        "Cellular Technology": "5G",
+        "RAM Memory Installed": "12 GB",
+        "Color": "Black",
+        "SIM Card Slot Count": "Single SIM",
+        "Connector Type": "USB Type C",
+        "Form Factor": "Bar",
+        "Biometric Security Feature": "Fingerprint Recognition",
+        "Human-Interface Input": "Buttons, Microphone, Touchscreen with Stylus Support",
+        "Sim Card Size": "Nano",
+        "Water Resistance Level": "Water Resistant",
+        "Headphones Jack": "USB-C",
+        "Compatible Devices": "Android, NFC, Samsung, Universal Bluetooth, Wifi",
+        "Additional Features": "Always On Display, Built-In GPS, Fast Charging Support, Reverse Wireless Charging, Wireless Charging",
+        "Flash Memory Supported Size Maximum": "256 GB",
+        "Front Photo Sensor Resolution": "12 \tmp",
+        "Rear Facing Camera Photo Sensor Resolution": "10.0, 12.0, 200.0, 50.0 \tmp",
+        "Camera Description": "Front, Rear",
+        "Number of Rear Facing Cameras": "4",
+        "Battery Capacity": "5000 milliamp_hours",
+        "Battery Power": "5000 milliamp_hours",
+        "Video Capture Resolution": "4k, 8k",
+        "Frame Rate": "60 fps",
+        "Screen Size": "6.9 inches",
+        "Display Type": "AMOLED",
+        "Wireless Provider": "Unlocked for All Carriers",
+        "Connectivity Technology": "5G, Bluetooth, NFC, USB, Wi-Fi",
+        "Wireless Network Technology": "CDMA, GSM, LTE",
+        "Model Year": "2026",
+        "Built-In Media": "Galaxy S26 Ultra, Quick Start Guide, SIM Tray Ejector, Stylus, USB Cable",
+        "Warranty Description": "1 Year Manufacturer",
+        "Manufacturer": "Samsung",
+        "Specific Uses For Product": "Mobile Photography, Content Creation, Social Events, Productivity",
+        "UPC": "198957240195",
+        "ASIN": "B0G4SWDH8P",
+        "Item Weight": "7.52 ounces",
+        "Item Dimensions": "6.44 x 3.07 x 0.31 inches",
+        "GPS Geotagging Functionality": "True",
+        "Supported Satellite Navigation System": "GPS"
+      },
+      "store": {
+        "externalId": "F50AFABA-4CDE-4A95-84D0-CA4C61819FEB",
+        "name": "Samsung",
+        "url": "https://www.amazon.com/stores/Samsung/page/F50AFABA-4CDE-4A95-84D0-CA4C61819FEB"
+      },
+      "variants": [
+        {
+          "externalId": "B0H7STX68V",
+          "name": "Blueberry / 128GB / Galaxy S26FE",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0H7T29QDR",
+          "name": "Pistachio / 128GB / Galaxy S26FE",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0GH3B3PFH",
+          "name": "White / 512GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0H7SPJHDH",
+          "name": "Blueberry / 256GB / Galaxy S26FE",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SWZP8B",
+          "name": "Sky Blue / 256GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SXD3TJ",
+          "name": "Cobalt Violet / 256GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0H7SYL97P",
+          "name": "Graphite / 256GB / Galaxy S26FE",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SYJK4G",
+          "name": "White / 256GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0GH33YP71",
+          "name": "Black / 512GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SVFSNP",
+          "name": "Sky Blue / 512GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SYZVKC",
+          "name": "White / 256GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SW96R4",
+          "name": "Black / 256GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SW3XXP",
+          "name": "Black / 512GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SWQC2Q",
+          "name": "Black / 256GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0H7SLXZPB",
+          "name": "Graphite / 128GB / Galaxy S26FE",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SZ6SJY",
+          "name": "White / 512GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SYWBQP",
+          "name": "White / 512GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0GH3474YH",
+          "name": "Sky Blue / 512GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SX6C1G",
+          "name": "Sky Blue / 256GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SSKLJM",
+          "name": "Black / 512GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SWDNBB",
+          "name": "Cobalt Violet / 512GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SWN34T",
+          "name": "Cobalt Violet / 512GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SX9GDX",
+          "name": "White / 256GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SVV79P",
+          "name": "Sky Blue / 512GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0GH33V5NM",
+          "name": "Cobalt Violet / 512GB / Galaxy S26",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0H7SRQVFH",
+          "name": "Pistachio / 256GB / Galaxy S26FE",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SX79VJ",
+          "name": "Cobalt Violet / 256GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SVXVSP",
+          "name": "Cobalt Violet / 256GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        },
+        {
+          "externalId": "B0G4SWDH8P",
+          "name": "Black / 256GB / Galaxy S26 Ultra",
+          "attributes": null,
+          "price": {
+            "amount": "1144.22",
+            "currency": "USD"
+          }
+        },
+        {
+          "externalId": "B0G4SYN2QC",
+          "name": "Sky Blue / 256GB / Galaxy S26+",
+          "attributes": null,
+          "price": null
+        }
+      ],
+      "sourcePublishedAt": null,
+      "collectedAt": "2026-10-29T02:52:41Z",
+      "raw": {
+        "byline": "Visit the Samsung Store",
+        "priceText": "$1,144.22",
+        "discoveredVia": "brand_search"
+      }
+    }
+  ],
+  "meta": {
+    "requestedProducts": 3,
+    "collectedProducts": 3,
+    "warnings": [
+      "店铺页初始 HTML 未包含商品（AJAX 加载），已改用品牌搜索页发现商品，结果为近似全店商品"
+    ],
+    "collectedAt": "2026-10-29T02:52:41Z"
+  },
+  "rawInput": {
+    "url": "https://www.amazon.com/stores/Samsung/page/F50AFABA-4CDE-4A95-84D0-CA4C61819FEB?lp_asin=B0G4SX79VJ&ref_=ast_bln&store_ref=bl_ast_dp_brandlogo_sto"
+  }
+}

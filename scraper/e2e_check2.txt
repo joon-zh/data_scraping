@@ -1,0 +1,2 @@
+total=0 err={'code': 'SOURCE_LOGIN_REQUIRED', 'message': '评价页需要登录 Amazon：请在浏览器登录后复制该站点 Cookie，粘贴到「评价需要登录」输入框再重试'}
+regions={}

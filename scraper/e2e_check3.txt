@@ -1,0 +1,2 @@
+total=8 err=None
+regions={'the United States': 8}

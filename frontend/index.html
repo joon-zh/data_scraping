@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>数据采集</title>
+<link rel="stylesheet" href="styles.css?v=28">
+</head>
+<body>
+
+<main class="demo-page" id="home-view">
+  <h1 class="demo-title">数据采集</h1>
+  <p class="demo-sub">店铺/商品解析由本地解析服务提供，使用前请先启动：python scraper/api.py</p>
+
+  <div class="demo-actions">
+    <button type="button" id="btn-open-wizard" class="btn btn-primary btn-lg">添加数据源</button>
+    <button type="button" id="btn-open-data" class="btn btn-secondary btn-lg">获取数据</button>
+  </div>
+</main>
+
+<!-- ====================== 数据详情（获取数据） ====================== -->
+<main class="demo-page" id="data-view" hidden>
+  <div class="data-header">
+    <button type="button" class="btn btn-secondary btn-sm" id="data-back">← 返回</button>
+    <h1 class="demo-title">数据详情</h1>
+  </div>
+  <p class="demo-sub">每个表格为一个商品的详细数据；勾选/取消商品后可按勾选导出。</p>
+
+  <div class="data-actions">
+    <label class="store-option"><input type="checkbox" id="data-check-all"> 全选</label>
+    <button type="button" class="btn btn-primary" id="data-fetch">
+      <span class="btn-label">重新获取</span>
+      <span class="spinner" hidden aria-hidden="true"></span>
+    </button>
+    <button type="button" class="btn btn-secondary" id="data-export-selected">导出所选</button>
+    <button type="button" class="btn btn-secondary" id="data-export-all">导出全部</button>
+    <button type="button" class="btn btn-secondary" id="data-export-reviews" disabled>导出所选评价</button>
+    <select id="data-export-format" class="btn" aria-label="导出格式">
+      <option value="xlsx">Excel 格式</option>
+      <option value="json">JSON 格式</option>
+    </select>
+    <span class="field-extra" id="data-status"></span>
+  </div>
+
+  <div id="data-tables"></div>
+  <div class="empty-state" id="data-empty" hidden>暂无商品，请先「添加数据源」并解析店铺</div>
+</main>
+
+<!-- ====================== 添加数据源向导 ====================== -->
+<div class="overlay" id="wizard-overlay" hidden>
+  <div class="modal wizard-modal" role="dialog" aria-modal="true" aria-labelledby="wizard-title">
+    <header class="modal-header">
+      <h2 class="modal-title" id="wizard-title">添加数据源</h2>
+      <ol class="stepper" id="wizard-stepper"></ol>
+      <button type="button" class="icon-btn" id="wizard-close" aria-label="关闭" data-tip="关闭">&times;</button>
+    </header>
+
+    <div class="modal-body">
+      <!-- Step 1 选择平台 -->
+      <section class="wizard-step" data-step-pane="1">
+        <div class="form-field" id="field-name">
+          <label class="field-label" for="ds-name">数据源名称 <span class="req" aria-hidden="true">*</span></label>
+          <input type="text" id="ds-name" class="input" placeholder="请输入" maxlength="100" autocomplete="off">
+          <p class="field-error" id="ds-name-error" hidden></p>
+        </div>
+
+        <div class="form-field" id="field-social">
+          <span class="field-label">社媒平台</span>
+          <div class="card-grid" id="grid-social"></div>
+          <p class="field-error" id="platform-error" hidden></p>
+        </div>
+
+        <div class="form-field">
+          <span class="field-label">电商平台</span>
+          <div class="card-grid" id="grid-ecommerce"></div>
+        </div>
+      </section>
+
+      <!-- Step 2 选择采集对象 -->
+      <section class="wizard-step" data-step-pane="2" hidden>
+        <div class="form-field" id="field-object">
+          <span class="field-label">采集对象 <span class="field-extra">可多选</span><span class="req" aria-hidden="true">*</span></span>
+          <div class="object-grid" id="grid-object"></div>
+          <p class="field-error" id="object-error" hidden></p>
+        </div>
+      </section>
+
+      <!-- Step 3 配置采集范围 -->
+      <section class="wizard-step" data-step-pane="3" hidden>
+        <div class="step3-header">
+          <h3 class="section-title">配置采集范围</h3>
+          <span class="platform-tag" id="s3-platform-tag"></span>
+        </div>
+
+        <div class="form-field" id="field-store-link">
+          <label class="field-label" for="s3-store-link">店铺链接</label>
+          <div class="input-with-btn">
+            <input type="text" id="s3-store-link" class="input" placeholder="粘贴店铺链接，如 https://www.amazon.com/stores/..." autocomplete="off">
+            <button type="button" class="btn btn-primary" id="s3-resolve-store">
+              <span class="btn-label">解析</span>
+              <span class="spinner" hidden aria-hidden="true"></span>
+            </button>
+          </div>
+          <p class="field-error" id="s3-store-error" hidden></p>
+        </div>
+
+        <div class="form-field">
+          <span class="field-label">已添加店铺</span>
+          <div class="tag-list" id="s3-stores"></div>
+        </div>
+
+        <div class="form-field">
+          <div class="field-row">
+            <span class="field-label">商品信息</span>
+            <span class="field-extra" id="s3-product-count">已选 0</span>
+          </div>
+          <div class="tag-list" id="s3-products"></div>
+          <button type="button" class="btn btn-dashed" id="s3-add-product">＋ 商品</button>
+        </div>
+
+        <div class="form-field" id="field-start">
+          <label class="field-label" for="s3-start">开始抓取时间 <span class="req" aria-hidden="true">*</span></label>
+          <div class="datetime-wrap">
+            <svg class="input-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 2h2v2h6V2h2v2h3a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h3V2zm-2 8v10h14V10H5zm0-2h14V6H5v2z"/></svg>
+            <input type="datetime-local" id="s3-start" class="input input-datetime">
+          </div>
+          <p class="field-error" id="s3-start-error" hidden></p>
+        </div>
+
+        <fieldset class="form-field radio-group">
+          <legend class="field-label">结束方式</legend>
+          <label class="radio-item"><input type="radio" name="endMode" value="keep"><span>持续采集</span></label>
+          <label class="radio-item"><input type="radio" name="endMode" value="fixed_end"><span>指定结束时间</span></label>
+        </fieldset>
+
+        <div class="form-field" id="field-refresh" hidden>
+          <label class="field-label" for="s3-refresh">刷新时间</label>
+          <select id="s3-refresh" class="select">
+            <option value="1">1 分钟</option>
+            <option value="5" selected>5 分钟</option>
+            <option value="10">10 分钟</option>
+            <option value="30">30 分钟</option>
+            <option value="60">1 小时</option>
+          </select>
+          <p class="field-extra">持续采集期间按该频率刷新采集</p>
+        </div>
+
+        <div class="form-field" id="field-end">
+          <label class="field-label" for="s3-end">结束抓取时间 <span class="req" aria-hidden="true">*</span></label>
+          <div class="datetime-wrap">
+            <svg class="input-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 2a8 8 0 1 1 0 16 8 8 0 0 1 0-16zm-1 3v6l5 3 .9-1.6L13 12V7h-2z"/></svg>
+            <input type="datetime-local" id="s3-end" class="input input-datetime">
+          </div>
+          <p class="field-error" id="s3-end-error" hidden></p>
+        </div>
+      </section>
+    </div>
+
+    <footer class="modal-footer">
+      <button type="button" class="btn btn-secondary" id="wf-cancel">取消</button>
+      <button type="button" class="btn btn-secondary" id="wf-prev" hidden>上一步</button>
+      <span class="footer-spacer"></span>
+      <button type="button" class="btn btn-primary" id="wf-next">
+        <span class="btn-label">下一步</span>
+        <span class="spinner" hidden aria-hidden="true"></span>
+        <span class="visually-hidden" id="wf-next-live" aria-live="polite"></span>
+      </button>
+    </footer>
+  </div>
+</div>
+
+<!-- ====================== 添加商品弹窗 ====================== -->
+<div class="overlay overlay-high" id="product-overlay" hidden>
+  <div class="modal product-modal" role="dialog" aria-modal="true" aria-labelledby="product-title">
+    <header class="modal-header">
+      <h2 class="modal-title" id="product-title">添加商品</h2>
+      <button type="button" class="icon-btn" id="product-close" aria-label="关闭" data-tip="关闭">&times;</button>
+    </header>
+
+    <div class="modal-body">
+      <p class="modal-hint">勾选要采集的商品；列表来自已解析店铺。未解析店铺时请先在「配置采集范围」中解析店铺链接。</p>
+
+      <div class="product-search-bar">
+        <input type="search" id="product-search" class="input" placeholder="搜索商品名称或商品 ID" autocomplete="off">
+        <button type="button" class="btn btn-secondary" id="product-search-btn">搜索</button>
+        <button type="button" class="btn btn-secondary" id="product-search-clear">清除</button>
+      </div>
+
+      <div class="table-wrap" id="product-table-wrap">
+        <table class="table">
+          <thead>
+            <tr><th class="th-check">选择</th><th>商品名称</th><th>商品 ID</th></tr>
+          </thead>
+          <tbody id="product-tbody"></tbody>
+        </table>
+      </div>
+      <div class="empty-state" id="product-empty" hidden>暂无可选商品，请先解析店铺</div>
+
+      <div class="pagination-bar" id="product-pagination">
+        <span class="page-total" id="page-total">共 0 条</span>
+        <label class="page-size-label">每页
+          <select id="page-size" class="select select-sm">
+            <option value="10" selected>10 条/页</option>
+            <option value="20">20 条/页</option>
+            <option value="50">50 条/页</option>
+          </select>
+        </label>
+        <div class="page-btns" id="page-btns"></div>
+        <span class="page-jump">前往
+          <input type="number" id="page-jump-input" class="input input-jump" min="1" aria-label="跳转页码">
+          页
+          <button type="button" class="btn btn-sm" id="page-jump-btn">跳转</button>
+        </span>
+      </div>
+      <p class="product-sum" id="product-sum">共计 0 个商品</p>
+    </div>
+
+    <footer class="modal-footer">
+      <span class="footer-spacer"></span>
+      <button type="button" class="btn btn-secondary" id="product-cancel">取消</button>
+      <button type="button" class="btn btn-primary" id="product-confirm">确认（0）</button>
+    </footer>
+  </div>
+</div>
+
+<!-- ====================== 二次确认弹窗 ====================== -->
+<div class="overlay overlay-highest" id="confirm-overlay" hidden>
+  <div class="modal confirm-modal" role="alertdialog" aria-modal="true" aria-labelledby="confirm-title" aria-describedby="confirm-body">
+    <div class="modal-body">
+      <h2 class="modal-title" id="confirm-title">放弃当前操作？</h2>
+      <p class="confirm-text" id="confirm-body">当前填写内容尚未保存，关闭后将丢失。</p>
+    </div>
+    <footer class="modal-footer">
+      <span class="footer-spacer"></span>
+      <button type="button" class="btn btn-secondary" id="confirm-cancel">继续填写</button>
+      <button type="button" class="btn btn-danger" id="confirm-ok">放弃并关闭</button>
+    </footer>
+  </div>
+</div>
+
+<div class="toast-region" id="toast-region" aria-live="polite"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/exceljs/4.4.0/exceljs.min.js"></script>
+<script src="app.js?v=28"></script>
+</body>
+</html>
